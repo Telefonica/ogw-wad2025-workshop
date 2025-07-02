@@ -69,6 +69,8 @@ https://developers.opengateway.telefonica.com/docs/frontend
 
 > Note: For this workshop, Vonage will play the role of the Channel Partner by providing its Open Gateway API Gateway
 
-Below is a simplified sequence diagram which completes frontend authentication with the end of the sign-up process, referring the interaction points you will find, or will need to implement, in the sample application:
+Below is a simplified sequence diagram which completes frontend authentication with the end of the sign-up process, referring the interaction points you will find, or will need to implement, in the sample application.
+
+It also includes one Vonage specific interaction, consisting on retrieving the authorization URL from its Network Enablement API (instead of performing a call directly to its API gateway's /authorize endpoint), and then display the result in the browser:
 
 <img src="diagrams/authorization.svg" style="width: 100%; height: 900px;" alt="Authorization Sequence Diagram" />
